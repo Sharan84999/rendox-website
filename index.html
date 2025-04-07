@@ -3,72 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rendox Epic IT Solutions</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f7fa;
-      color: #333;
-    }
-    header {
-      background-color: #005fcb;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #005fcb;
-    }
-    footer {
-      background-color: #eee;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-  </style>
+  <title>Rendox Epic IT Solutions - Home</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Placeholder for CSS link -->
 </head>
 <body>
+
+  <!-- Header and Navigation -->
   <header>
-    <h1>Rendox Epic IT Solutions</h1>
-    <p>Empowering Software Firms with Expert Tech Talent</p>
+    <div class="header-container">
+      <!-- Company Logo/Name -->
+      <div class="logo">
+        <img src="logo.png" alt="Rendox Epic IT Solutions Logo" /> 
+        <!-- If no logo image, use text: <h1>Rendox Epic IT Solutions</h1> -->
+      </div>
+      <!-- Navigation Menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <h2>Who We Are</h2>
-    <p>Rendox Epic IT Solutions is a specialized staffing and consulting company focused on connecting software firms with top-tier IT professionals. We deliver highly skilled experts in software development, data engineering, DevOps, QA, cloud, and IT support roles.</p>
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section with Tagline -->
+    <section id="hero" style="text-align:center; padding: 2em; background:#f5f5f5;">
+      <h1>Empowering Your Team with Top IT Talent</h1>
+      <p>Connecting software firms with skilled IT professionals to drive innovation and success.</p>
+      <a href="contact.html" class="btn">Get in Touch</a>
+    </section>
 
-    <h2>What We Do</h2>
-    <ul>
-      <li>Talent sourcing & staffing for software firms</li>
-      <li>Contract, contract-to-hire, and permanent placements</li>
-      <li>Custom team building for tech projects</li>
-      <li>Agile & cloud-native staffing support</li>
-    </ul>
+    <!-- About Summary Section -->
+    <section id="about-summary" style="padding: 2em;">
+      <h2>Who We Are</h2>
+      <p><strong>Rendox Epic IT Solutions</strong> is a leading provider of specialized IT staffing services for software companies. We partner with firms to provide expert developers, analysts, and IT consultants that meet their project needs and company culture.</p>
+      <p>Our team brings years of industry experience to help businesses scale effectively with the right talent.</p>
+      <a href="about.html" class="read-more">Learn more about us &raquo;</a>
+    </section>
 
-    <h2>Why Choose Us</h2>
-    <ul>
-      <li>Deep industry expertise</li>
-      <li>Fast turnaround and quality-focused matching</li>
-      <li>Flexible, scalable hiring solutions</li>
-      <li>Personalized partnerships and support</li>
-    </ul>
+    <!-- Services Highlights Section -->
+    <section id="home-services" style="background:#eef5fa; padding: 2em;">
+      <h2>Our Services</h2>
+      <div class="services-list">
+        <div class="service">
+          <h3>IT Staff Augmentation</h3>
+          <p>Flexible staffing solutions to add expert software developers and IT specialists to your team for short or long-term projects.</p>
+        </div>
+        <div class="service">
+          <h3>Permanent Placement</h3>
+          <p>We help you find the perfect full-time candidates for critical roles, from software engineers to project managers, ensuring a precise fit.</p>
+        </div>
+        <div class="service">
+          <h3>Consulting & Advisory</h3>
+          <p>Expert advice on IT team structuring and talent strategy to help your business navigate growth and technological change.</p>
+        </div>
+      </div>
+      <a href="services.html" class="read-more">All Services &raquo;</a>
+    </section>
 
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:hello@rendoxepic.com">hello@rendoxepic.com</a><br>
-       Phone: +123-456-7890<br>
-       Location: Remote-first | Serving clients globally
-    </p>
-  </section>
+    <!-- Industries Served Section -->
+    <section id="home-industries" style="padding: 2em;">
+      <h2>Industries We Serve</h2>
+      <p>Our staffing expertise spans multiple domains. We understand the unique talent needs of different industries:</p>
+      <ul>
+        <li><strong>Finance & FinTech:</strong> Placing experts who drive secure, innovative financial software projects.</li>
+        <li><strong>Healthcare IT:</strong> Providing skilled developers versed in health tech and data privacy requirements.</li>
+        <li><strong>E-Commerce & Retail:</strong> Supplying talent for high-performance, scalable online platforms and retail systems.</li>
+        <li><strong>Telecommunications:</strong> Staffing network engineers and software specialists for communication technologies.</li>
+      </ul>
+      <a href="industries.html" class="read-more">Explore all industries &raquo;</a>
+    </section>
 
-  <footer>
-    &copy; 2024 Rendox Epic IT Solutions. All rights reserved.
+    <!-- Call-to-Action / Contact Teaser -->
+    <section id="call-to-action" style="text-align:center; background:#d9ecff; padding: 2em;">
+      <h2>Ready to Build Your Dream Team?</h2>
+      <p>Find out how our IT staffing solutions can propel your projects forward. Let’s discuss your hiring needs today.</p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer style="text-align:center; padding:1em; background:#333; color:#fff;">
+    <p>&copy; 2025 Rendox Epic IT Solutions. All rights reserved.</p>
+    <p><small>1234 Software Park Rd, Tech City, UK &nbsp;|&nbsp; +44 123 456 7890 &nbsp;|&nbsp; info@rendoxepic.com</small></p>
   </footer>
+
 </body>
 </html>
